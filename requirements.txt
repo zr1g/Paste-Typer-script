@@ -1,13 +1,13 @@
-# ── install everything below before running the script ──
-#
-#   open a terminal and run:
-#   pip install pyautogui keyboard pynput Pillow
-#
-# or install them one by one:
-#   pip install pyautogui
-#   pip install keyboard
-#   pip install pynput
-#   pip install Pillow
+ ── install everything below before running the script ──
+
+open a terminal and run:
+pip install pyautogui keyboard pynput Pillow
+
+or install them one by one:
+pip install pyautogui
+pip install keyboard
+pip install pynput
+pip install Pillow
 
 pyautogui>=0.9.54
 keyboard>=0.13.5
@@ -15,15 +15,19 @@ pynput>=1.7.6
 Pillow>=9.0.0
 
 
-# ── building the .exe (optional) ──
-#
-# 1. install pyinstaller:
-#      pip install pyinstaller
-#
-# 2. open terminal and cd into your script folder, change the path to wherever yours is:
-#      cd D:\paste_script
-#
-# 3. run this, swapping the filename if yours is different:
-#      python -m PyInstaller --onefile --noconsole --icon=icon.ico paste_typer_v20.3.py
-#
-# 4. your .exe will appear in the /dist folder
+ ── building the .exe ──
+
+1. install pyinstaller:
+pip install pyinstaller
+
+2. open terminal and cd into your script folder, change the path to wherever yours is:
+this is mine as an example ---> cd D:\paste_script
+
+3. run this, swapping the filename if yours is different:
+example:
+cd D:\paste_script
+python -m PyInstaller --onefile --noconsole --icon=icon.ico paste_typer_v20.3.py
+
+4. your .exe will appear in the /dist folder
+
+# Add the icon.ico, logo.png, and the paste_typer_v20.3.py into the same folder. Then go into your terminal and paste in the exe code, you should get an exe forming and a dist fileshowing up in the same file. Then boom you have this script. Enjoy!
